@@ -1,0 +1,109 @@
+/* File: style.css
+GUI Assignment: Creating Your First Web Page
+Ilyes Abdellatif Bouazza, UMass Lowell Computer Science, ilyesabdellatif_bouazza@cs.uml.edu
+Copyright (c) 2024 by Ilyes. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+created by IAB on SEP 7, 2024 at 8:00 AM
+updated by IAB on SEP 11, 2024 at 18:23 PM */
+
+/* wrapping the body content with div  */
+.div-body {
+    background-color: rgb(244, 249, 251);
+    /* Sets a light blue background color for the div */
+    padding: 30px;
+    /* Adds space inside the div around the content */
+    width: 60%;
+    /* Sets the width of the div to 60% of the parent element */
+    margin-left: auto;
+    /* Centers the div horizontally by setting left margin to auto */
+    margin-right: auto;
+    /* Centers the div horizontally by setting right margin to auto */
+    line-height: 1.6;
+    /* Sets the line spacing for better readability */
+}
+
+/* Appliying a style to all the paragraphs in the web page   */
+p {
+    text-align: left;
+    /* Aligns paragraph text to the left */
+    font-size: xx-large;
+    /* Sets the font size to extra extra large */
+    font-weight: normal;
+    /* Sets the font weight to normal */
+}
+
+/* Setting the font size and weight to the order list items  */
+ol {
+    font-size: 40px;
+    /* Sets the font size of ordered list items */
+}
+
+li {
+    font-weight: bold;
+    /* Make the list number and text bold */
+}
+
+/* Swtting the font size and style of the images caption which is found under each image    */
+figcaption {
+    font-size: large;
+    /* Sets the font size of figure captions */
+    font-style: italic;
+    /* Styles the caption text in italics */
+}
+
+/* Setting the font size and the text alignment of the header which is at the top  */
+h1 {
+    text-align: center;
+    /* Centers the heading text */
+    font-size: 60px;
+    /* Sets the font size of the heading */
+}
+
+/* Setting the boarder size and color of the horizontal line that separates the list items (cities) */
+hr {
+    border: 2px solid rgb(165, 211, 239);
+    /* Sets a solid border with light blue color for the horizontal line */
+    border-radius: 2px;
+    /* Slightly rounds the corners of the horizontal line */
+}
+
+/* Setting the font size and the font weigh of the summary title in the end of the page */
+.div-summary {
+    font-size: 40px;
+    /* Sets the font size for the summary div */
+    font-weight: bold;
+    /* Makes the text bold */
+}
+
+/* Setting the style for the entire table */
+table {
+    width: 100%;
+    /* Sets the table to take up the full width of its container */
+    border: 1px solid #ccc;
+    /* Adds a light grey border around the table */
+    font-size: xx-large;
+    /* Sets the font size for table content */
+    border-spacing: 0px;
+    /* Removes space between table cells */
+}
+
+/* Thats for the the table header that includes City Pros Cons */
+table thead td {
+    background-color: rgb(165, 211, 239);
+    /* Sets a light blue background for table header cells */
+    font-weight: bold;
+    /* Makes the header text bold */
+    text-align: center;
+    /* Centers the text within header cells */
+}
+
+/* Putting the padding backgoound color and the type and the color of the table data */
+/* or the cells */
+table td {
+    padding: 15px;
+    /* Adds padding inside each table cell */
+    background-color: #fbfbfb;
+    /* Sets a light grey background for table cells */
+    border: 1px solid #ccc;
+    /* Adds a light grey border around each cell */
+}
